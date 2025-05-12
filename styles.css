@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+}
+
+.boton {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.boton span {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.bi {
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    margin: 180px 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: black;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
